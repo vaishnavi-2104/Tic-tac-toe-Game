@@ -1,0 +1,27 @@
+.Board-container{
+  margin: 50px;
+  background-color:lightblue;
+
+
+}
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.tic-button{
+  display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+
+}
